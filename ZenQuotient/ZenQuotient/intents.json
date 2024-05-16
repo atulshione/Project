@@ -1,0 +1,291 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "How are you doing",
+              "Is anyone there?",
+              "What's up?",
+              "Hello",
+              "Good day",
+              "What's up"
+          ],
+          "responses": [
+              "Hey! Welcome to ZenQuotient.",
+              "Hi there, I'm doing well! My name's ZenQuotient, what can I do for you?",
+              "Hey there, my name's ZenQuotient, your mental health friend. How can I help you today?"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later!", "Goodbye!", "Thank you"],
+          "responses": [
+              "See you later! Take care!",
+              "Have a lovely day! Take care and stay safe!",
+              "Take care of yourself! I'm always here to support you! Feel free to come back at any time!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Thank you so much","Thank you very much","I appreciate your consideration","I appreciate your guidance","My sincere thanks","My thanks and appreciation","Thank you for your support","Thank you for your time","Thank you for your encouragement"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+          "tag": "about",
+          "patterns": [
+              "What do you do?",
+              "Who are you?",
+              "What are you here for?",
+              "What can you help me with?",
+              "Is anyone there?",
+              "Are you a real person?",
+              "Tell me about yourself!",
+              "What can you do for me"
+          ],
+          "responses": [
+              "Love that question! My name's ZenQuotient, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+              "Hey! I love that question! My name is ZenQuotient, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well."
+          ]
+      },
+      {
+          "tag": "anxiety_questions",
+          "patterns": [
+              "I think I have anxiety",
+              "What is anxiety?",
+              "Tell me about anxiety",
+              "Can I have some information about anxiety?",
+              "How do I support a loved one with anxiety?",
+              "How do I fix my anxiety?"
+          ],
+          "responses": [
+              "Anxiety is a feeling of fear or apprehension about what's to come. The best thing you can do to help reduce anxiety is to talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep meditating, eating a healthy diet and exercising."
+          ]
+      },
+      {
+          "tag": "anxiety_second",
+          "patterns": [
+              "I think I have anxiety",
+              "What are some symptoms of anxiety ",
+              "how do i know if i have anxiety",
+              "Can you tell me some symptoms about anxiety"
+          ],
+          "responses": [
+              "When you feel anxious, your body goes on high alert, looking for possible danger and activating your fight or flight responses. As a result, some common symptoms of anxiety include:nervousness, restlessness, or being tense."
+          ]
+      },
+{
+          "tag": "anxiety_third",
+          "patterns": [
+              "What happens in your body when you experience anxiety",
+              "What happens in your body when you are anxious"
+          ],
+          "responses": [
+              "Knowing what happens in your body is the key to understanding the symptoms you experience when dealing with anxiety. Your brain operates in either stress mode or calm mode and can turn stress and anxiety on like a switch, whether you know it or not. Anxious test takers can't remember answers during the exam and then they come flooding in afterwards."
+          ]
+      },
+{
+          "tag": "anxiety_fourth",
+          "patterns": [
+              "Does breathing help anxiety"
+          ],
+          "responses": [
+              "Belly breathing is one of the most effective treatments for anxiety. It's simply making sure you breathe in so that your belly expands and then breathe out so that the belly contracts. When you control your breathing, it can lower your heart rate and blood pressure."
+          ]
+      },
+{
+          "tag": "anxiety_fifth",
+          "patterns": [
+              "Can you ever prevent anxiety from interfering with your life and goals",
+		   "Can you ever stop anxiety from getting in the way of your goals and daily activities",
+"Can you ever completely eliminate anxiety from your life and goals"
+
+          ],
+          "responses": [
+              "Dr. Prakash Masand is a psychiatrist and founder of the Centers of Psychiatric Excellence. He says with the right treatment, people can lead very successful and fulfilling lives. Many famous people have experienced huge success despite their anxiety, he says."
+          ]
+      },
+      {
+          "tag": "depression",
+          "patterns": [
+              "I think I have depression",
+              "What is depression?",
+              "Tell me about depression",
+              "Can I have some information about depression?",
+              "How do I support a loved one with depression?",
+              "How do I fix my depression?"
+          ],
+          "responses": [
+              "I see that you want to learn more about depression, and how to support yourself or your loved ones. At the higest level, depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living. All of us experience sadness and periods of time where things aren't that great. However, the difference in sadness and depression lies in the duration and magnitude of the problem. The best recommended course of treatment is to talk a therapist or psychiatrist who can help you find the best path for you. Everyone is different and what might work for one person might not work for another one. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+          ]
+      },
+      {
+          "tag": "depression_one",
+          "patterns": [
+              "Is depression a mental illness"
+
+          ],
+          "responses": [
+              "Major depression affects about 6.7% of the U.S. population over age 18, according to the National Institute of Mental Health. Some estimate that major depression may be as high as 15%. Clinical depression is a serious medical illness that needs professional diagnosis and treatment."
+          ]
+      },
+{
+          "tag": "depression_two",
+          "patterns": [
+              "Can a lack of sleep cause depression?"
+
+          ],
+          "responses": [
+              "Chronic inability to sleep is an important clue that someone may be depressed. Major, chronic, and terminal illnesses often contribute to depression. Street drugs or heavy alcohol use can cause mood changes that mimic depression or other mood disorders. Some people with substance abuse problems also may have depression."
+          ]
+      },
+
+{
+          "tag": "depression_three",
+          "patterns": [
+              "Why are women more likely to get depression"
+
+          ],
+          "responses": [
+              "Women develop depression twice as often as men, according to the National Suicide Prevention Lifeline. One reason may be changes in hormone levels during pregnancy and menopause. Premenstrual syndrome (PMS) and premenstrual dysphoric disorder (PMDD) may also cause depression."
+          ]
+      },
+
+{
+          "tag": "depression_four",
+          "patterns": [
+              "Will someone who has had depression get it again"
+
+          ],
+          "responses": [
+              "Not everyone who has recovered from depression will experience it again. Sometimes depression is triggered by a major life event, illness or combination of factors. Depression can also occur for no obvious ''reason Getting the proper treatment for the correct amount of time is crucial to recovery."
+          ]
+      },
+      {
+          "tag": "depression_one",
+          "patterns": [
+              "Is depression a mental illness"
+
+          ],
+          "responses": [
+              "Major depression affects about 6.7% of the U.S. population over age 18, according to the National Institute of Mental Health. Some estimate that major depression may be as high as 15%. Clinical depression is a serious medical illness that needs professional diagnosis and treatment."
+          ]
+      },
+{
+          "tag": "depression_two",
+          "patterns": [
+              "Can a lack of sleep cause depression?"
+
+          ],
+          "responses": [
+              "Chronic inability to sleep is an important clue that someone may be depressed. Major, chronic, and terminal illnesses often contribute to depression. Street drugs or heavy alcohol use can cause mood changes that mimic depression or other mood disorders. Some people with substance abuse problems also may have depression."
+          ]
+      },
+
+{
+          "tag": "depression_three",
+          "patterns": [
+              "Why are women more likely to get depression"
+
+          ],
+          "responses": [
+              "Women develop depression twice as often as men, according to the National Suicide Prevention Lifeline. One reason may be changes in hormone levels during pregnancy and menopause. Premenstrual syndrome (PMS) and premenstrual dysphoric disorder (PMDD) may also cause depression."
+          ]
+      },
+
+{
+          "tag": "depression_four",
+          "patterns": [
+              "Will someone who has had depression get it again"
+
+          ],
+          "responses": [
+              "Not everyone who has recovered from depression will experience it again. Sometimes depression is triggered by a major life event, illness or combination of factors. Depression can also occur for no obvious ''reason Getting the proper treatment for the correct amount of time is crucial to recovery."
+          ]
+      },
+{
+          "tag": "depression_five",
+          "patterns": [
+              "How long does depression last"
+
+          ],
+          "responses": [
+              "A major depressive episode is characterized by a set of symptoms that typically lasts for a few months. Seasonal depression, or SAD, usually extends throughout the winter months and continues to improve during spring and summer. Dysthymia is a mild and sometimes less recognizable form of depression that lasts for 2 years or more in adults."
+          ]
+      },
+      {
+          "tag": "schizophrenia",
+          "patterns": [
+              "I think I have schizophrenia",
+              "What is schizophrenia?",
+              "Tell me about schizophrenia",
+              "Can I have some information about schizophrenia?",
+              "How do I support a loved one with schizophrenia?",
+              "How do I fix my schizophrenia?"
+          ],
+          "responses": [
+              "I see that you want to learn more about schizophrenia, and how to support yourself or your loved ones. At the higest level, Schizophrenia is a serious mental disorder in which people interpret reality abnormally. Schizophrenia may result in some combination of hallucinations, delusions, and extremely disordered thinking and behavior that impairs daily functioning, and can be disabling. People with schizophrenia require lifelong treatment. Early treatment may help get symptoms under control before serious complications develop and may help improve the long-term outlook. If you believe you have symptoms of schizophrenia, and/or you have various risk factors that increase the likelihood of schizophrenia, please consult a family doctor and/or psychiatrist for a diagnosis and treatment plan specific for the individual."
+          ]
+      },
+      {
+          "tag": "funny",
+          "patterns": [
+              "Tell me a joke!",
+              "Tell me something funny!",
+              "Do you know a joke?"
+          ],
+          "responses": [
+              "Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+              "What did the buffalo say when his son left for college? Bison!",
+              "I invented a new word! Plagiarism!",
+              "What did the pirate say when he turned 80? Aye matey!",
+              "What's orange and sounds like a parrot? \n A carrot!",
+              "What's the best way to watch a fishing tournament? \n Live stream!",
+              "What do you call a guy who never farts in public? \n A private tutor!",
+              "What did the duck say to the bartender? \n Put it on my bill!",
+              "Did you hear about corduroy pillows? \n They're making head lines!"
+          ]
+      },
+      {
+          "tag": "bipolar disorder",
+          "patterns": [
+              "I think I have bipolar disorder",
+              "What is bipolar disorder?",
+              "Tell me about bipolar disorder",
+              "Can I have some information about bipolar disorder?",
+              "How do I support a loved one with bipolar disorder?",
+              "How do I fix my bipolar disorder?"
+          ],
+          "responses": [
+              "I see that you want to know about Bi-polar disorder and also support your loved ones. Bipolar disorder can cause severe disruption to a person’s life, but the impact varies between individuals. With appropriate treatment and support, many people with this condition live a full and productive life. Following are some of the natural therapies for Bipolar Depression: \n1)Stick to a healthy routine\n2)Structure your day\n3)Don’t be afraid\n4)Stay active\n5)Don’t isolate yourself\n6)Find new ways to relieve stress\n7)Join a support group"
+          ]
+      },
+      {
+          "tag": "bipolar disorder symptoms",
+          "patterns": [
+              "what are some symptoms of bipolar disorder?",
+              "can you tell me some symptoms of bipolar disorder?",
+              "how do i know if i have bipolar disorder?"
+          ],
+          "responses": [
+            "There are several types of bipolar and related disorders. They may include mania or hypomania and depression. Bipolar disorder can occur at any age, but typically it's diagnosed in the teen years or early 20s. Symptoms can vary from person to person, and symptoms may vary over time."
+          ]
+      },
+      {
+          "tag": "bipolar disorder cure",
+          "patterns": [
+              "How can i cure bipolar disorder?",
+              "what are some solutions to bipolar disorder",
+              "how can i fix my bipolar disorder"
+
+
+          ],
+          "responses": [
+              "Bipolar disorder is a lifelong condition. Treatment is directed at managing symptoms. The primary treatments for bipolar disorder include medications and psychological counseling. If you have problems with alcohol or drugs, you'll also need substance abuse treatment. Getting psychiatric treatment at a hospital can help keep you calm and safe."
+
+          ]
+      }
+  ]
+}
